@@ -1,0 +1,184 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.hero,
+footer {
+    background-color: #1F2937;
+    color: white;
+    width: 100%;
+}
+
+.hero {
+    padding: 10px 10% 70px;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+}
+
+button {
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 5px 10px;
+    border: none;
+    color: #F9FAF8;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+    line-height: 40px;
+}
+
+.first-block-left p {
+    margin: 10px 0px;
+    font-size: 18px #E5E7EB;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 55px;
+}
+
+.right-header ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.right-header ul li {
+    margin-left: 20px;
+}
+
+.left-header {
+    font-size: 24px;
+    color: #F9FAF8
+}
+
+.first-block {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+}
+
+.image-placeholder {
+    width: 30vw;
+    height: 30vh;
+    background-color: #5d5e5d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-block {
+    padding: 0 10%;
+    padding-bottom: 70px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.second-block h2 {
+    text-align: center;
+    margin-bottom: 24px;
+    margin-top: 24px;
+    font-size: 36px;
+}
+
+.cards {
+    display: flex;
+    gap: 30px;
+}
+
+
+.card-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    text-align: center;
+}
+
+.card-item p {
+    font-size: 20px;
+}
+
+.card {
+    display: flex;
+    width: 15vw;
+    height: 15vw;
+    border: 3px solid blue;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.third-block {
+    background-color: #E5E7EB;
+    padding: 70px 10% 70px;
+}
+
+blockquote p {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+figcaption {
+    float: right;
+    padding-right: 10px;
+}
+
+.fourth-block {
+    padding: 70px 10% 70px;
+}
+
+.action-window {
+    background-color: #3882F6;
+    border-radius: 10px;
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-left {
+    flex: 3;
+    color: white;
+    margin-left: 50px;
+}
+
+.action-right {
+    flex: 1;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.action-right button {
+    border: white 2px solid;
+    padding: 5px 20px;
+}
